@@ -1,0 +1,164 @@
+/*common start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2ezb3c;
+}
+/*common end*/
+
+/*header start*/
+header{
+	padding: 10px 0;
+	/*border-bottom: 2px	solid #f0f2f4;*/
+}
+.wrapper{
+	overflow: hidden;
+	width: 75%;
+	/*border:  1px solid;*/
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 12%;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: left;
+	width: 40%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	margin: 10px 0;
+}
+	
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 15px;
+	display: inline-block;
+	color: #0f2656;
+}
+.button{
+	width: 20%;
+	margin: 0 80%;
+	height: 48px;
+	/*border: 1px solid black;*/
+}
+
+.button button{
+	padding: 10px;
+	margin: 0 1px;
+
+	background-color: #fc6063;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 97px 0;
+}
+.first_ban h1{
+	font-family: sans-serif;
+	font-weight: 700;
+	margin: 0;
+	text-align: left;
+	/*padding: 0 105px;*/
+	font-size: 30px;
+	/*line-height: 50px;*/
+}
+.first_ban p{
+	margin: 10px 0 20px;
+	line-height: 25px;
+	padding: 0 0px;
+
+}
+.b_img {
+	width: 100%;
+	float: right;
+	border: 1px solid black;
+
+}
+.b_img img{
+	float: right;
+	
+}
+/*banner end*/
+/*body start*/
+.body{
+	padding-bottom: 50px;
+}
+.wrapper2 h3{
+	font-family: sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+.wrapper2 p{
+	font-family: sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+.single_body{
+	margin-right: 2%;
+	float: left;
+	padding: 40px 1.5%;
+	width: 19%;
+}
+.single_body p{
+	
+}
+
+/*body end*/
+/*line start*/
+.line{
+	border: 1px solid black;
+	padding-bottom: 14%;
+}
+.line_height{
+	border-left: 2px solid #A2ABCE;
+    height: 120px;
+    margin: 0px 50%;
+}
+/*line end*/
+/*feature start*/
+.feature{
+	padding-bottom: 50px;
+}
+
+.wrapper h3{
+	font-family: sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+.wrapper p{
+	font-family: sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+/*feature end*/
+/*footer start*/
+footer{
+	padding: 35px 0;
+	background-color: #292640;
+}
+footer p{
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+footer button button{
+	text-align: center;
+}
+/*footer end*/
